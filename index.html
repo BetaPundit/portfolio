@@ -38,8 +38,8 @@
     <link rel="stylesheet" type="text/css" href="css/jquery.fancybox-1.3.4.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" /> -->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/loader.css">
     
-    <!-- <link class="cover-skin" rel="stylesheet" type="text/css" href="css/skins/cover/default.css"> -->
     <link class="base-skin" rel="stylesheet" type="text/css" href="css/skins/base/clean.css">
     <link class="paper-bg-skin" rel="stylesheet" type="text/css" href="css/skins/paper-bg/cream-dust.css">
     <link class="body-bg-skin" rel="stylesheet" type="text/css" href="css/skins/body-bg/wood-2.css">
@@ -50,8 +50,7 @@
     
 </head>
 
-<body>
-			
+<body>			
             
         <!-- MAIN -->
         <section class="main">
@@ -950,34 +949,34 @@
                                                   <!-- LETTER -->
                                                    
                                                 
-                                                  <form id="gform" action="https://script.google.com/macros/s/AKfycbwegW0Nz44ATU0G1sbdmbSJUI76ZsSBDJ0sZIsA2cSnTYCzoHYf/exec" method="POST">
+                                                  <form id="contact-form" class="needs-validation" novalidate>
                                                     
                                                     <!-- enter your e-mail address here -->
-                                                    <input type="hidden" id="to" name="to" value="adityaas26@gmail.com">
+                                                    <!-- <input type="hidden" id="to" name="to" value="adityaas26@gmail.com"> -->
                                                     
                                                     <p>
                                                       <label for="name">Name</label>
-                                                      <input type="text" name="name" id="name" class="required">
+                                                      <input type="text" name="name" id="name" class="required" required>
                                                     </p>
                                                     
                                                     <p>
                                                       <label for="email">Email</label>
-                                                      <input type="text" name="email" id="email" class="required email">
+                                                      <input type="text" name="email" id="email" class="required email" required>
                                                     </p>
                                                     
                                                     <p>
                                                       <label for="subject">Subject</label>
-                                                      <input type="text" name="subject" id="subject" class="required">
+                                                      <input type="text" name="subject" id="subject" class="required" required>
                                                     </p>
                                                     
                                                     <p>
                                                       <label for="message">Message</label>
-                                                      <textarea name="message" id="message" class="required"></textarea>
+                                                      <textarea name="message" id="message" class="required" required></textarea>
                                                     </p>
                                                    
                                                     <p>
-                                                      <img class="ajax-loader" src="images/bckg/loader_light.gif" alt="Sending ...">
-                                                      <input type="submit" class="btn submit" value="SEND">
+                                                      <img class="loader" alt="Sending ...">
+                                                      <input type="submit" class="btn submit" id="submit-form">
                                                     </p>
                                                     
                                                   </form>
@@ -1047,7 +1046,7 @@
         
         
         <!-- ************************ AJAX LOADER -->
-        <div class="loader"></div>
+        <!-- <div class="loader"></div> -->
         <!-- ************************ AJAX LOADER -->    
             
             
@@ -1073,7 +1072,7 @@
         firebase.initializeApp(config);
         </script>
 
-
+		
         <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
@@ -1083,23 +1082,99 @@
 		<script src="js/jquery.imagesloaded.min.js"></script>
         <script src="js/jquery.isotope.min.js"></script>
         <script src="js/jquery.fitvids.js"></script>
-        <script src="js/jquery.validate.min.js"></script>
         <script src="js/jquery.fancybox-1.3.4.pack.js"></script>
-        <script src="js/send-mail.js"></script>
-        <script src="js/twitterFetcher_v10_min.js"></script>
+        <script src="js/loader.js"></script>
+        <!-- <script src="js/twitterFetcher_v10_min.js"></script> -->
         <script src="js/main.js"></script>
         <script src="js/ityped.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
-		
-		
+
+        <!-- Script for iTyped master -->
 		<script>
-		  ityped.init('#type-text', {
-			strings:['a student.', 'a developer.', 'a designer.', 'a technopreneur.', 'a ML enthusiast.', 'an opportunist.', 'an entrepreneur.'],
-			startDelay: 200,
-			loop: true
-		  });
+            ityped.init('#type-text', {
+              strings:['a student.', 'a developer.', 'a designer.', 'a technopreneur.', 'a ML enthusiast.', 'an opportunist.', 'an entrepreneur.'],
+              startDelay: 200,
+              loop: true
+            });
+  
+        </script>
 
-		</script>
+         <!-- Script for form data submission -->
+         <script type="text/javascript">
+            var $form = $('form#contact-form'),
+            url = 'https://script.google.com/macros/s/AKfycbwegW0Nz44ATU0G1sbdmbSJUI76ZsSBDJ0sZIsA2cSnTYCzoHYf/exec'
+
+            var $nameInp = $("input#name");
+            var $emailInp = $("input#email");
+            var $subjectInp = $("input#subject");
+            var $messageInp = $("textarea#message");
+
+            $('#submit-form').on('click', function (e) {
+                console.log("Clicked!");
+                console.log("Name: ", $nameInp[0]);
+                console.log("Name validity: ", $nameInp[0].checkValidity());
+                e.preventDefault();
+
+                // validation check
+                if (!$nameInp[0].checkValidity()) {
+                    $nameInp.addClass('error');
+                    // console.log('Invalid Input!');
+                } else if (!$emailInp[0].checkValidity()) {
+                    $emailInp.addClass('error');
+                } else if (!$subjectInp[0].checkValidity()) {
+                    $subjectInp.addClass('error');
+                } else if (!$messageInp[0].checkValidity()) {
+                    $messageInp.addClass('error');
+                } else {
+                    // send AJAX request
+                    var formData = $.ajax({
+                        url: url,
+                        method: "GET",
+                        dataType: "json",
+                        data: $form.serializeArray(),
+                        success: (res => {
+                            clearFields();
+                            console.log(res);
+                            alert('Submitted!');
+                        })
+                    });
+                }
+            })
+        
+            function clearFields() {
+                document.getElementById('contact-form').reset();
+                $form[0].classList.remove('error');
+            }
+        </script>
+
+        <!-- Script to remove red border -->
+        <script type="text/javascript">
+            var $nameInp = $("input#name");
+            var $emailInp = $("input#email");
+            var $subjectInp = $("input#subject");
+            var $messageIdInp = $("textarea#message");
+
+            $nameInp.focus(
+                function(){
+                    $nameInp.removeClass('error');
+            });
+            $emailInp.focus(
+                function(){
+                    $emailInp.removeClass('error');
+            });
+            $subjectInp.focus(
+                function(){
+                    $subjectInp.removeClass('error');
+            });
+            $messageInp.focus(
+                function(){
+                    $messageInp.removeClass('error');
+            });
+        </script>
 
         <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 

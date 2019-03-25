@@ -14,7 +14,7 @@
  *   http://www.opensource.org/licenses/mit-license.php
  *   http://www.gnu.org/licenses/gpl.html
  */
-#fancybox-loading { position: fixed; top: 50%; left: 50%; width: 110px; height: 50px; margin-top: -25px; margin-left: -55px; cursor: pointer; overflow: hidden; z-index: 1104; display: none; background: url(../images/bckg/loader_dark.gif) center center no-repeat; background-color: #000; background-color: rgba(0,0,0,.8); border-radius: 4px; }
+/* #fancybox-loading { position: fixed; top: 50%; left: 50%; width: 110px; height: 50px; margin-top: -25px; margin-left: -55px; cursor: pointer; overflow: hidden; z-index: 1104; display: none; background: url(../images/bckg/loader_dark.gif) center center no-repeat; background-color: #000; background-color: rgba(0,0,0,.8); border-radius: 4px; } */
 #fancybox-loading div { display: none; }
 #fancybox-overlay{position:absolute;top:0;left:0;width:100%;z-index:1100;display:none;overflow:-x:hidden}
 #fancybox-tmp{padding:0;margin:0;border:0;overflow:auto;display:none}
@@ -53,6 +53,6 @@
 	#fancybox-left { left: -80px; }
 	}
 	
-@media  (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 192dpi) { 
+/* @media  (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 192dpi) { 
 	#fancybox-loading { background-size: 70px 24px; background-image: url(../images/bckg/loader_dark@2x.gif); }   
-}
+} */
