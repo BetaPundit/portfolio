@@ -1,21 +1,24 @@
-# Your Favicon Package
+# Awesome Portfolio website
 
-This package was generated with [RealFaviconGenerator](https://realfavicongenerator.net/) [v0.16](https://realfavicongenerator.net/change_log#v0.16)
+This is the official portfolio website portraying the work, contributions and achievements of [Aditya Sharma](https://github.com/adityaas26).
 
-## Install instructions
+## Hire Me
 
-To install this package:
+I am open for the following roles:
+- Mobile Application developer (Flutter)
+- Full Stack Developer (Vue.js and Node.js)
+- Machine Learning Engineer
+- Computer Vision
 
-Extract this package in the root of your web site. If your site is <code>http://www.example.com</code>, you should be able to access a file named <code>http://www.example.com/favicon.ico</code>.
+Feel free to drop me a mail on [adityaas26@gmail.com](mailto:adityaas26@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/aditya-sharma26/).
 
-Insert the following code in the `head` section of your pages:
+## Support
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#ffc40d">
-    <meta name="theme-color" content="#ffffff">
+<a href="https://www.buymeacoffee.com/iBZjXRz" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
-*Optional* - Check your favicon with the [favicon checker](https://realfavicongenerator.net/favicon_checker)
+
+Reach out to me at any of the following platforms:
+- Portfolio Website: [adityasharma.me](https://adityasharma.me)
+- Email: [adityaas26@gmail.com](mailto:adityaas26@gmail.com)
+- Twitter: [@BetaPundit](https://twitter.com/BetaPundit)
+- LinkedIn: [aditya-sharma26](https://www.linkedin.com/in/aditya-sharma26/)
