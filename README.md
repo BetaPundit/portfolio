@@ -3,7 +3,7 @@
 <img src="https://github.com/adityaas26/adityaas26/blob/master/images/portfolio_scrnshot_2.jpg" alt="aditya sharma">
 <img src="https://github.com/adityaas26/adityaas26/blob/master/images/portfolio_scrnshot_1.jpg" alt="aditya sharma">
 
-This is the official portfolio website portraying the work, contributions and achievements of [Aditya Sharma](https://github.com/adityaas26).
+This is the official portfolio website portraying the work, contributions and achievements of [Aditya Sharma](https://github.com/BetaPundit).
 
 ## Hire Me
 
@@ -21,7 +21,7 @@ Feel free to drop me a mail on [adityaas26@gmail.com](mailto:adityaas26@gmail.co
 
 
 Reach out to me at any of the following platforms:
-- Portfolio Website: [adityasharma.me](https://adityasharma.me)
+- Portfolio Website: [adityasharma.me](https://adityasharma.live)
 - Email: [adityaas26@gmail.com](mailto:adityaas26@gmail.com)
 - Twitter: [@BetaPundit](https://twitter.com/BetaPundit)
 - LinkedIn: [aditya-sharma26](https://www.linkedin.com/in/aditya-sharma26/)
