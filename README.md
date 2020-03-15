@@ -11,7 +11,7 @@ I am open for the following roles:
 - Mobile Application developer (Flutter)
 - Full Stack Developer (Vue.js and Node.js)
 - Machine Learning Engineer
-- Computer Vision
+- Computer Vision Engineer
 
 Feel free to drop me a mail on [adityaas26@gmail.com](mailto:adityaas26@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/aditya-sharma26/).
 
