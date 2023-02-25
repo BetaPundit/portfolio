@@ -471,7 +471,7 @@ a.ribbon:hover { color: #000; }
 
 /* HOMEPAGE COVER BLOG LINK */
 .latest-from-blog {
-	margin: 22px 0; position: absolute; bottom: 60px; right: 0; left: 0;
+	margin: 22px 0; position: absolute; bottom: 0px; right: 0; left: 0;
 	}
 .latest-from-blog h3 {
     width: 320px; font-size: 12px !important; padding: 6px; padding-left: 4%; background: #111; margin: 0; text-transform: uppercase;
@@ -489,11 +489,18 @@ a.ribbon:hover { color: #000; }
 	text-align: left; margin: 0 0 0 4%; display: inline; font-size: 18px !important; text-shadow: none !important;
 	}
 .latest-from-blog h2 a {
-	display: inline-block; padding: 5px; color: #111; background: #F9ED3A;
+	display: inline-block; padding: 5px 15px 7px 0; color: #111;
+	font-weight: 600 !important;
 	}
-.latest-from-blog h2 a:hover {
-	background: #fff;
-	}
+.blog-bar {
+	background: #f5ef5b;
+	margin: 0 0 0 4%;
+	padding-right: 5px;
+}
+.blog-bar:hover  {
+	background-color: #fff;
+	transition: 0.3s background-color;
+}
 	
 
 /* ------------------------------------------ 
@@ -1596,9 +1603,9 @@ blockquote cite {
         }	
 	
 	/* HOMEPAGE COVER BLOG LINK */
-	.latest-from-blog h2 {
+	/* .latest-from-blog h2 {
 		font-size: 24px !important;
-		}
+		} */
 	
 	/* Comment Form */
     #respond form p { 
