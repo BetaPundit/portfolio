@@ -14,7 +14,7 @@ I am open for the following roles:
 - Machine Learning Engineer
 - Computer Vision Engineer
 
-Feel free to drop me a mail on [adityaas26@gmail.com](mailto:adityaas26@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/aditya-sharma26/).
+Feel free to drop me a mail on [hi@adityasharma.co](mailto:hi@adityasharma.co) or connect with me on [LinkedIn](https://www.linkedin.com/in/aditya-sharma26/).
 
 ## Support
 
@@ -23,6 +23,6 @@ Feel free to drop me a mail on [adityaas26@gmail.com](mailto:adityaas26@gmail.co
 Reach out to me at any of the following platforms:
 
 - Portfolio Website: [adityasharma.co](https://adityasharma.co)
-- Email: [adityaas26@gmail.com](mailto:adityaas26@gmail.com)
+- Email: [hi@adityasharma.co](mailto:hi@adityasharma.co)
 - Twitter: [@BetaPundit](https://twitter.com/BetaPundit)
 - LinkedIn: [aditya-sharma26](https://www.linkedin.com/in/aditya-sharma26/)
