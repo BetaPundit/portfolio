@@ -360,7 +360,7 @@
 			// set the widths (%) for each of item
 			items.each(function(index, element) {
 				var multiplier = $(this).hasClass('x2') && columns > 1 ? 2 : 1;
-				var itemWidth = (Math.floor( containerW / columns ) * 100 / containerW) * multiplier ;
+				var itemWidth = (Math.floor( containerW / columns ) * 99 / containerW) * multiplier ;
 				$(this).css( 'width', itemWidth + '%' );
 			});
 		
